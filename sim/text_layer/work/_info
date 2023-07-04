@@ -1,0 +1,204 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dE:/mif
+T_opt
+!s110 1599038638
+VXCGJPHY4AnQKIaMJ:fXeh0
+04 5 4 work D2_tb fast 0
+=1-509a4c3b6f58-5f4f64ad-24b-2f38
+o-quiet -auto_acc_if_foreign -work work -L simprims_ver -L unisims_ver +acc
+n@_opt
+OL;O;10.4;61
+vD2
+Z0 !s110 1599038544
+!i10b 1
+!s100 X=IkT^cP1mzSH<GYAXZTV0
+IdgUR2fV[GK>NP8P2iBF^:2
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dE:/yscc/lab25/sim/text_layer
+w1598755958
+8E:/yscc/lab25/src/DynamicDisplay/D2.v
+FE:/yscc/lab25/src/DynamicDisplay/D2.v
+L0 1
+Z3 OL;L;10.4;61
+r1
+!s85 0
+31
+!s108 1599038543.993000
+!s107 E:/yscc/lab25/src/DynamicDisplay/D2.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/yscc/lab25/src/DynamicDisplay/D2.v|
+!i113 0
+Z4 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+n@d2
+vD2_tb
+R0
+!i10b 1
+!s100 hZ[0=c45LSMlCLfGEz19R1
+IJW`8WH0fLHSH`GeOioe8C1
+R1
+R2
+w1598755956
+8E:/yscc/lab25/src/DynamicDisplay/D2_tb.v
+FE:/yscc/lab25/src/DynamicDisplay/D2_tb.v
+L0 3
+R3
+r1
+!s85 0
+31
+!s108 1599038544.096000
+!s107 E:/yscc/lab25/src/DynamicDisplay/D2_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/yscc/lab25/src/DynamicDisplay/D2_tb.v|
+!i113 0
+R4
+n@d2_tb
+vDCM_PLL
+R0
+!i10b 1
+!s100 [P5M7e;E[Qo<K0<]75^@=1
+I[fIR4M_Ql@SnGZh>6H^V=2
+R1
+R2
+Z5 w1598593821
+Z6 8E:/ysc/vivadoproject1/DynamicDisplay.srcs/sources_1/ip/DCM_PLL/DCM_PLL_sim_netlist.v
+Z7 FE:/ysc/vivadoproject1/DynamicDisplay.srcs/sources_1/ip/DCM_PLL/DCM_PLL_sim_netlist.v
+L0 16
+R3
+r1
+!s85 0
+31
+Z8 !s108 1599038544.786000
+Z9 !s107 E:/ysc/vivadoproject1/DynamicDisplay.srcs/sources_1/ip/DCM_PLL/DCM_PLL_sim_netlist.v|
+Z10 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/ysc/vivadoproject1/DynamicDisplay.srcs/sources_1/ip/DCM_PLL/DCM_PLL_sim_netlist.v|
+!i113 0
+R4
+n@d@c@m_@p@l@l
+vDCM_PLL_DCM_PLL_clk_wiz
+R0
+!i10b 1
+!s100 X6[T]3TFN:VF[e;[Loz?l0
+IB65AKRNYIdoGbjdVBkimY1
+R1
+R2
+R5
+R6
+R7
+L0 43
+R3
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R4
+n@d@c@m_@p@l@l_@d@c@m_@p@l@l_clk_wiz
+vglbl
+R0
+!i10b 1
+!s100 QU5`eYUT<Hji]^Cf0F5`h0
+IiPChD2O]DQ?kmGC_MShE60
+R1
+R2
+R5
+R6
+R7
+L0 153
+R3
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R4
+vHzROM
+R0
+!i10b 1
+!s100 1[PS41:JkR9Oz5V@1_24G2
+I^kok^gV1czUa@YK_K3S;?2
+R1
+R2
+w1598506917
+8E:/yscc/lab25/src/DynamicDisplay/HzROM.v
+FE:/yscc/lab25/src/DynamicDisplay/HzROM.v
+L0 21
+R3
+r1
+!s85 0
+31
+!s108 1599038544.423000
+!s107 E:/yscc/lab25/src/DynamicDisplay/HzROM.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/yscc/lab25/src/DynamicDisplay/HzROM.v|
+!i113 0
+R4
+n@hz@r@o@m
+vmux8_to_1
+!s110 1599038636
+!i10b 1
+!s100 QKQk<EB@YOcifZ8dJ7Fol2
+ISR0W=LeeClWBUXBI8nQe60
+R1
+R2
+w1598769067
+8E:/yscc/lab25/src/DynamicDisplay/mux8_to_1.v
+FE:/yscc/lab25/src/DynamicDisplay/mux8_to_1.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1599038636.032000
+!s107 E:/yscc/lab25/src/DynamicDisplay/mux8_to_1.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/yscc/lab25/src/DynamicDisplay/mux8_to_1.v|
+!i113 0
+R4
+vsyncGenarator
+R0
+!i10b 1
+!s100 H`9K3NN;9JW?:`P`ngUfF2
+IPFISMRU;[ghDzik=FchPK1
+R1
+R2
+w1598582837
+8E:/yscc/lab25/src/DynamicDisplay/syncGenarator.v
+FE:/yscc/lab25/src/DynamicDisplay/syncGenarator.v
+L0 5
+R3
+r1
+!s85 0
+31
+!s108 1599038544.211000
+!s107 E:/yscc/lab25/src/DynamicDisplay/syncGenarator.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/yscc/lab25/src/DynamicDisplay/syncGenarator.v|
+!i113 0
+R4
+nsync@genarator
+vtext_layer
+R0
+!i10b 1
+!s100 kKOPj2[NkR`V>O;cO8<443
+InG4KEOKdTEK[ZB21AZX5J0
+R1
+R2
+w1599020097
+8E:/yscc/lab25/src/DynamicDisplay/text_layer.v
+FE:/yscc/lab25/src/DynamicDisplay/text_layer.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1599038544.321000
+!s107 E:/yscc/lab25/src/DynamicDisplay/text_layer.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/yscc/lab25/src/DynamicDisplay/text_layer.v|
+!i113 0
+R4

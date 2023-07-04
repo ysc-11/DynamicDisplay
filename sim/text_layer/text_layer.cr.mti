@@ -1,0 +1,53 @@
+E:/yscc/lab25/src/DynamicDisplay/D2_tb.v {1 {vlog -work work -vopt -stats=none E:/yscc/lab25/src/DynamicDisplay/D2_tb.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module D2_tb
+
+Top level modules:
+	D2_tb
+
+} {} {}} E:/yscc/lab25/src/DynamicDisplay/mux8_to_1.v {1 {vlog -work work -vopt -stats=none E:/yscc/lab25/src/DynamicDisplay/mux8_to_1.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module mux8_to_1
+
+Top level modules:
+	mux8_to_1
+
+} {} {}} E:/ysc/vivadoproject1/DynamicDisplay.srcs/sources_1/ip/DCM_PLL/DCM_PLL_sim_netlist.v {1 {vlog -work work -vopt -stats=none E:/ysc/vivadoproject1/DynamicDisplay.srcs/sources_1/ip/DCM_PLL/DCM_PLL_sim_netlist.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module DCM_PLL
+-- Compiling module DCM_PLL_DCM_PLL_clk_wiz
+-- Compiling module glbl
+
+Top level modules:
+	DCM_PLL
+	glbl
+
+} {} {}} E:/yscc/lab25/src/DynamicDisplay/HzROM.v {1 {vlog -work work -vopt -stats=none E:/yscc/lab25/src/DynamicDisplay/HzROM.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module HzROM
+
+Top level modules:
+	HzROM
+
+} {} {}} E:/yscc/lab25/src/DynamicDisplay/syncGenarator.v {1 {vlog -work work -vopt -stats=none E:/yscc/lab25/src/DynamicDisplay/syncGenarator.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module syncGenarator
+
+Top level modules:
+	syncGenarator
+
+} {} {}} E:/yscc/lab25/src/DynamicDisplay/text_layer.v {1 {vlog -work work -vopt -stats=none E:/yscc/lab25/src/DynamicDisplay/text_layer.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module text_layer
+
+Top level modules:
+	text_layer
+
+} {} {}} E:/yscc/lab25/src/DynamicDisplay/D2.v {1 {vlog -work work -vopt -stats=none E:/yscc/lab25/src/DynamicDisplay/D2.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module D2
+
+Top level modules:
+	D2
+
+} {} {}}
