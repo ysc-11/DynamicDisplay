@@ -1,0 +1,67 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/modeltech64_10.4/examples
+vaction
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+31
+!i10b 1
+!s100 fF1abg9GVYnh84KGl0^@`2
+IIGBML_S6QlUTfJzhnT6hG1
+Z1 dC:/Users/Asus/Desktop/ysc/solution/lab25/sim/action
+w1599311333
+8C:/Users/Asus/Desktop/ysc/solution/lab25/src/DynamicDisplay/action.v
+FC:/Users/Asus/Desktop/ysc/solution/lab25/src/DynamicDisplay/action.v
+L0 1
+Z2 OL;L;10.4;61
+!s108 1599312012.228000
+!s107 C:/Users/Asus/Desktop/ysc/solution/lab25/src/DynamicDisplay/action.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Asus/Desktop/ysc/solution/lab25/src/DynamicDisplay/action.v|
+!i113 0
+Z3 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vaction_tb
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 <HoEGZAO>JXI=]d9zkYEz3
+I7TVj;d3lgc=9?[G0U7Ni12
+R1
+w1598775436
+8C:/Users/Asus/Desktop/ysc/solution/lab25/src/DynamicDisplay/action_tb.v
+FC:/Users/Asus/Desktop/ysc/solution/lab25/src/DynamicDisplay/action_tb.v
+L0 4
+R2
+!s108 1599312012.482000
+!s107 C:/Users/Asus/Desktop/ysc/solution/lab25/src/DynamicDisplay/action_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Asus/Desktop/ysc/solution/lab25/src/DynamicDisplay/action_tb.v|
+!i113 0
+R3
+vcounter
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 C5TN<zG4QidfcdC6[SDcZ3
+I;A70gabVKaRnDGP;J43iH0
+R1
+w1598845696
+8C:/Users/Asus/Desktop/ysc/solution/lab25/src/DynamicDisplay/counter.v
+FC:/Users/Asus/Desktop/ysc/solution/lab25/src/DynamicDisplay/counter.v
+L0 1
+R2
+!s108 1599312063.675000
+!s107 C:/Users/Asus/Desktop/ysc/solution/lab25/src/DynamicDisplay/counter.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Asus/Desktop/ysc/solution/lab25/src/DynamicDisplay/counter.v|
+!i113 0
+R3

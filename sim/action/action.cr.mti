@@ -1,0 +1,22 @@
+C:/Users/Asus/Desktop/ysc/solution/lab25/src/DynamicDisplay/action_tb.v {1 {vlog -work work -vopt -stats=none C:/Users/Asus/Desktop/ysc/solution/lab25/src/DynamicDisplay/action_tb.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module action_tb
+
+Top level modules:
+	action_tb
+
+} {} {}} C:/Users/Asus/Desktop/ysc/solution/lab25/src/DynamicDisplay/counter.v {1 {vlog -work work -vopt -stats=none C:/Users/Asus/Desktop/ysc/solution/lab25/src/DynamicDisplay/counter.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module counter
+
+Top level modules:
+	counter
+
+} {} {}} C:/Users/Asus/Desktop/ysc/solution/lab25/src/DynamicDisplay/action.v {1 {vlog -work work -vopt -stats=none C:/Users/Asus/Desktop/ysc/solution/lab25/src/DynamicDisplay/action.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module action
+
+Top level modules:
+	action
+
+} {} {}}
