@@ -1,0 +1,66 @@
+module DynamicDisplay1(clk, reset, run, TMDSp, TMDSn, TMDSp_clk, TMDSn_clk);
+    input clk;
+	input reset;
+	input run;
+	output hSync;
+	output vSync;
+	output DE;
+	output [7:0] red;
+	output [7:0] green;
+	output [7:0] blue;
+	
+	//DCM实例
+    wire   pixel_clk,tmds_clk;   
+    DCM_PLL DCM_INST(  
+      .clk_in1(clk), //CLK100M IN   
+      .clk_out1(pixel_clk),//CLK25M_OUT   
+      .clk_out2(tmds_clk),//CLK250M_OUT   
+      .locked(),  
+      .reset(1'b0));  
+	
+	//分频器
+	
+	//行帧同步产生电路
+	wire[9:0] x_pos;
+    wire[8:0] y_pos;
+    wire hSync,vSync,DE;
+    syncGenarator sync_inst(  
+      .pixel_clk(pixel_clk), // 
+      .reset(0), 
+      .x_pos(x_pos) , 
+      .y_pos(y_pos) , 
+      .hSync(hSync) ,
+      .vSync(vSync) , 
+      .ActiveArea(DE)); 
+	     
+       
+	//动画控制
+	wire [2:0] ActionSel;
+	wire [9:0] DogPos_x;
+	wire [8:0] DogPos_y;
+	action action_u(.pixel_clk(pixel_clk), .run(run), .reset(reset), .ActionSel(ActionSel), .DogPos_x(DogPos_x), .DogPos_y(DogPos_y));
+	
+	//背景层
+	wire RqFLag2;
+	wire [7:0] r2,g2,b2;
+	bg_layer bg_layer_u(.x_pos(x_pos), .y_pos(y_pos), .pixel_clk(pixel_clk), .RqFLag2(RqFLag2), .r2(r2), .g2(g2), .b2(b2));
+	
+	//字符显示层
+	wire RqFLag1;
+	wire [7:0] r1,g1,b1;
+	text_layer text_layer_u(.clk(clk), .x_pos(x_pos), .y_pos(y_pos), .RqFLag1(RqFLag1), .r1(r1), .g1(g1), .b1(b1));
+	
+	//小狗奔跑的动画层
+	wire RqFLag0;
+	wire [7:0] r0,g0,b0;
+	dog_layer dog_layer_u(.pixel_clk(pixel_clk), .x_pos(x_pos), .y_pos(y_pos), .DogPos_x(DogPos_x), .DogPos_y(DogPos_y), .ActionSel(ActionSel), .RqFLag0(RqFLag0), .r0(r0), .g0(g0), .b0(b0));
+	
+	//图层选择
+	wire [7:0] red,green,blue;
+	choose choose_u(.RqFLag0(RqFLag0), .RqFLag1(RqFLag1), .RqFLag2(RqFLag2), .r0(r0), .g0(g0), .b0(b0), .r1(r1), .g1(g1), .b1(b1), .r2(r2), .g2(g2), .b2(b2), .red(red), .green(green), .blue(blue));
+	
+	  
+   
+endmodule   
+
+	
