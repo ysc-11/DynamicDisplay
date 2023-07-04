@@ -1,0 +1,25 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Wed Sep  2 08:51:30 2020
+# Process ID: 11648
+# Current directory: E:/ysc/vivadoproject1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11180 E:\ysc\vivadoproject1\DynamicDisplay.xpr
+# Log file: E:/ysc/vivadoproject1/vivado.log
+# Journal file: E:/ysc/vivadoproject1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/ysc/vivadoproject1/DynamicDisplay.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2017.4/data/ip'.
+open_project: Time (s): cpu = 00:00:18 ; elapsed = 00:00:17 . Memory (MB): peak = 747.734 ; gain = 95.535
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+[Wed Sep  2 08:52:50 2020] Launched synth_1...
+Run output will be captured here: E:/ysc/vivadoproject1/DynamicDisplay.runs/synth_1/runme.log
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Sep  2 08:54:07 2020...

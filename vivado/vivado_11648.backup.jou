@@ -1,0 +1,16 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Wed Sep  2 08:51:30 2020
+# Process ID: 11648
+# Current directory: E:/ysc/vivadoproject1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11180 E:\ysc\vivadoproject1\DynamicDisplay.xpr
+# Log file: E:/ysc/vivadoproject1/vivado.log
+# Journal file: E:/ysc/vivadoproject1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/ysc/vivadoproject1/DynamicDisplay.xpr
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1

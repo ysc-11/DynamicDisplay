@@ -1,0 +1,1243 @@
+/*
+
+Xilinx Vivado v2017.4 (64-bit) [Major: 2017, Minor: 4]
+SW Build: 2086221 on Fri Dec 15 20:55:39 MST 2017
+IP Build: 2085800 on Fri Dec 15 22:25:07 MST 2017
+
+Process ID: 11040
+License: Customer
+
+Current time: 	Mon Aug 31 09:12:09 CST 2020
+Time zone: 	China Standard Time (Asia/Shanghai)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1920x1080
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 56 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	D:/Xilinx/Vivado/2017.4/tps/win64/jre
+JVM executable location: 	D:/Xilinx/Vivado/2017.4/tps/win64/jre/bin/java.exe
+
+User name: 	DigitalLab
+User home directory: C:/Users/DigitalLab
+User working directory: E:/ysc/vivadoproject1
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+
+RDI_BASEROOT: D:/Xilinx/Vivado
+HDI_APPROOT: D:/Xilinx/Vivado/2017.4
+RDI_DATADIR: D:/Xilinx/Vivado/2017.4/data
+RDI_BINDIR: D:/Xilinx/Vivado/2017.4/bin
+
+Vivado preferences file location: C:/Users/DigitalLab/AppData/Roaming/Xilinx/Vivado/2017.4/vivado.xml
+Vivado preferences directory: C:/Users/DigitalLab/AppData/Roaming/Xilinx/Vivado/2017.4/
+Vivado layouts directory: C:/Users/DigitalLab/AppData/Roaming/Xilinx/Vivado/2017.4/layouts
+PlanAhead jar file location: 	D:/Xilinx/Vivado/2017.4/lib/classes/planAhead.jar
+Vivado log file location: 	E:/ysc/vivadoproject1/vivado.log
+Vivado journal file location: 	E:/ysc/vivadoproject1/vivado.jou
+Engine tmp dir: 	E:/ysc/vivadoproject1/.Xil/Vivado-11040-DESKTOP-8EAFK93
+
+GUI allocated memory:	178 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 497 MB
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 53 MB (+52630kb) [00:00:11]
+// [Engine Memory]: 469 MB (+340302kb) [00:00:11]
+// bs (cj):  Open Project : addNotify
+// Opening Vivado Project: E:\ysc\vivadoproject1\DynamicDisplay.xpr. Version: Vivado v2017.4 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project E:/ysc/vivadoproject1/DynamicDisplay.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// HMemoryUtils.trashcanNow. Engine heap size: 497 MB. GUI used memory: 30 MB. Current time: 8/31/20 9:12:11 AM CST
+// [Engine Memory]: 497 MB (+4769kb) [00:00:16]
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 530 MB (+8944kb) [00:00:19]
+// [GUI Memory]: 58 MB (+2610kb) [00:00:22]
+// [Engine Memory]: 562 MB (+5579kb) [00:00:22]
+// [GUI Memory]: 62 MB (+1030kb) [00:00:23]
+// Tcl Message: open_project E:/ysc/vivadoproject1/DynamicDisplay.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2017.4/data/ip'. 
+// Project name: DynamicDisplay; location: E:/ysc/vivadoproject1; part: xc7a200tfbg484-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:14 . Memory (MB): peak = 748.715 ; gain = 55.242 
+dismissDialog("Open Project"); // bs (cj)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 586 MB. GUI used memory: 40 MB. Current time: 8/31/20 9:12:26 AM CST
+// Tcl Message: update_compile_order -fileset sources_1 
+// [Engine Memory]: 596 MB (+5706kb) [00:00:32]
+// [GUI Memory]: 68 MB (+3617kb) [00:00:34]
+// [GUI Memory]: 75 MB (+3397kb) [00:00:36]
+// [GUI Memory]: 80 MB (+1440kb) [00:00:42]
+// Elapsed time: 37 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 5, true, false, false, false, true, false); // B (D, cj) - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // Z (ai, cj)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // Z (ai, cj)
+// [GUI Memory]: 91 MB (+7367kb) [00:01:06]
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Settings]", 1, false); // u (O, cj)
+// Run Command: RDIResourceCommand.RDICommands_SETTINGS
+// Tcl Command: 'rdi::info_commands {device::*}'
+// Tcl Command: 'rdi::info_commands {debug::*}'
+// Tcl Command: 'rdi::info_commands {*}'
+// [GUI Memory]: 98 MB (+2734kb) [00:01:10]
+// [Engine Memory]: 661 MB (+37135kb) [00:01:10]
+// v (cj): Settings: addNotify
+// 'dw' command handler elapsed time: 3 seconds
+// Run Command: RDIResourceCommand.RDICommands_SETTINGS
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Settings]", 1, false, false, false, false, false, true); // u (O, cj) - Double Click
+// [GUI Memory]: 106 MB (+2733kb) [00:01:11]
+// HMemoryUtils.trashcanNow. Engine heap size: 670 MB. GUI used memory: 53 MB. Current time: 8/31/20 9:13:06 AM CST
+dismissDialog("Settings"); // v (cj)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Add Sources]", 2, false); // u (O, cj)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (cj): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton (h, c)
+// 'h' command handler elapsed time: 3 seconds
+dismissDialog("Add Sources"); // c (cj)
+// [GUI Memory]: 117 MB (+6179kb) [00:01:32]
+// Elapsed time: 15 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Add Sources]", 2, false); // u (O, cj)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (cj): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton (h, c)
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files"); // a (C, c)
+// Elapsed time: 14 seconds
+setFileChooser("E:/ysc/button_process_unit.v");
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files"); // a (C, c)
+// HMemoryUtils.trashcanNow. Engine heap size: 699 MB. GUI used memory: 65 MB. Current time: 8/31/20 9:13:46 AM CST
+// [Engine Memory]: 700 MB (+5596kb) [00:01:51]
+setFileChooser("E:/ysc/button_process_unit.edf");
+selectButton("FINISH", "Finish"); // JButton (h, c)
+// 'h' command handler elapsed time: 23 seconds
+dismissDialog("Add Sources"); // c (cj)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files -norecurse E:/ysc/button_process_unit.edf 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files -norecurse E:/ysc/button_process_unit.v 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// PAPropertyPanels.initPanels (button_process_unit.edf) elapsed time: 0.2s
+// Elapsed time: 13 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, button_process_unit (button_process_unit.edf)]", 2, false); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, button_process_unit (button_process_unit.v)]", 3, false); // B (D, cj)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 374 seconds
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "synth_1 ; constrs_1 ; Synthesis Out-of-date ;  ;  ;  ;  ;  ;  ;  ; 576 ; 143 ; 0.0 ; 0 ; 0 ; Sun Aug 30 16:34:01 CST 2020 ; 00:00:58 ; Vivado Synthesis Defaults (Vivado Synthesis 2017) ; Vivado Synthesis Default Reports (Vivado Synthesis 2017) ; xc7a200tfbg484-1 ; Vivado Synthesis Defaults", 0, "synth_1", 0, true); // ax (O, cj) - Node
+// PAPropertyPanels.initPanels (synth_1) elapsed time: 0.3s
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 71 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, DynamicDisplay (DynamicDisplay.v)]", 1); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, DynamicDisplay (DynamicDisplay.v), button_process_unit_u : button_process_unit (button_process_unit.edf)]", 4, false); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, DynamicDisplay (DynamicDisplay.v), button_process_unit_u : button_process_unit (button_process_unit.v)]", 3, false); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, DynamicDisplay (DynamicDisplay.v), button_process_unit_u : button_process_unit (button_process_unit.v)]", 3, false, false, false, false, false, true); // B (D, cj) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, DynamicDisplay (DynamicDisplay.v), button_process_unit_u : button_process_unit (button_process_unit.v)]", 3, false); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, DynamicDisplay (DynamicDisplay.v), action_u : action (action.v)]", 6, true); // B (D, cj) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, DynamicDisplay (DynamicDisplay.v), action_u : action (action.v)]", 6, true); // B (D, cj) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, DynamicDisplay (DynamicDisplay.v), action_u : action (action.v)]", 6, true, false, false, false, false, true); // B (D, cj) - Double Click - Node
+// HMemoryUtils.trashcanNow. Engine heap size: 712 MB. GUI used memory: 70 MB. Current time: 8/31/20 9:21:41 AM CST
+// Elapsed time: 15 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, DynamicDisplay (DynamicDisplay.v)]", 1, true); // B (D, cj) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, DynamicDisplay (DynamicDisplay.v)]", 1, true); // B (D, cj) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, DynamicDisplay (DynamicDisplay.v)]", 1, true, false, false, false, false, true); // B (D, cj) - Double Click - Node
+selectCodeEditor("DynamicDisplay.v", 175, 333); // cd (w, cj)
+selectCodeEditor("DynamicDisplay.v", 276, 345); // cd (w, cj)
+selectCodeEditor("DynamicDisplay.v", 741, 319); // cd (w, cj)
+selectCodeEditor("DynamicDisplay.v", 314, 298); // cd (w, cj)
+selectCodeEditor("DynamicDisplay.v", 331, 336); // cd (w, cj)
+// Elapsed time: 41 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, DynamicDisplay (DynamicDisplay.v)]", 1); // B (D, cj)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, DynamicDisplay (DynamicDisplay.v)]", 1); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, divider (divider.v)]", 2, false); // B (D, cj)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, DynamicDisplay (DynamicDisplay.v)]", 1); // B (D, cj)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, DynamicDisplay (DynamicDisplay.v)]", 1); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, divider (divider.v)]", 2, false, false, false, false, true, false); // B (D, cj) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // ac (ai, cj)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// as (cj): Remove Sources: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (as)
+dismissDialog("Remove Sources"); // as (cj)
+// Tcl Message: export_ip_user_files -of_objects  [get_files E:/ysc/divider.v] -no_script -reset -force -quiet 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: remove_files  E:/ysc/divider.v 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, divider (divider.v)]", 2, false); // B (D, cj)
+// TclEventType: DG_GRAPH_GENERATED
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, DynamicDisplay (DynamicDisplay.v)]", 1); // B (D, cj)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, DynamicDisplay (DynamicDisplay.v)]", 1); // B (D, cj)
+// Elapsed time: 20 seconds
+selectCodeEditor("DynamicDisplay.v", 201, 222); // cd (w, cj)
+selectCodeEditor("DynamicDisplay.v", 226, 419); // cd (w, cj)
+selectCodeEditor("DynamicDisplay.v", 234, 436); // cd (w, cj)
+selectCodeEditor("DynamicDisplay.v", 234, 436, false, false, false, false, true); // cd (w, cj) - Double Click
+selectCodeEditor("DynamicDisplay.v", 234, 436); // cd (w, cj)
+selectCodeEditor("DynamicDisplay.v", 242, 434); // cd (w, cj)
+selectCodeEditor("DynamicDisplay.v", 246, 402); // cd (w, cj)
+selectCodeEditor("DynamicDisplay.v", 235, 448); // cd (w, cj)
+selectCodeEditor("DynamicDisplay.v", 237, 441); // cd (w, cj)
+selectCodeEditor("DynamicDisplay.v", 238, 439, false, false, false, false, true); // cd (w, cj) - Double Click
+selectCodeEditor("DynamicDisplay.v", 239, 438); // cd (w, cj)
+selectCodeEditor("DynamicDisplay.v", 239, 431); // cd (w, cj)
+selectCodeEditor("DynamicDisplay.v", 239, 431, false, false, false, false, true); // cd (w, cj) - Double Click
+selectCodeEditor("DynamicDisplay.v", 239, 431); // cd (w, cj)
+selectCodeEditor("DynamicDisplay.v", 239, 431); // cd (w, cj)
+selectCodeEditor("DynamicDisplay.v", 246, 367); // cd (w, cj)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (O, cj)
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis]", 4); // u (O, cj)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bs (cj):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (cj): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bs (cj):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (cj)
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs synth_1 -jobs 2 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Mon Aug 31 09:23:56 2020] Launched synth_1... Run output will be captured here: E:/ysc/vivadoproject1/DynamicDisplay.runs/synth_1/runme.log 
+// 'k' command handler elapsed time: 4 seconds
+dismissDialog("Starting Design Runs"); // bs (cj)
+// TclEventType: RUN_COMPLETED
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// ah (cj): Synthesis Completed: addNotify
+// Elapsed time: 75 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_GOTO_NETLIST_DESIGN, "Open Synthesized Design"); // a (N, ah)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_GOTO_NETLIST_DESIGN
+// bs (cj):  Open Synthesized Design : addNotify
+// Tcl Message: open_run synth_1 -name synth_1 
+// Tcl Message: Design is defaulting to impl run constrset: constrs_1 Design is defaulting to synth run part: xc7a200tfbg484-1 
+// HMemoryUtils.trashcanNow. Engine heap size: 778 MB. GUI used memory: 73 MB. Current time: 8/31/20 9:25:16 AM CST
+// [Engine Memory]: 778 MB (+45443kb) [00:13:21]
+// [Engine Memory]: 981 MB (+171712kb) [00:13:26]
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: POWER_CNS_STALE
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// [Engine Memory]: 1,131 MB (+106494kb) [00:13:31]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,181 MB. GUI used memory: 72 MB. Current time: 8/31/20 9:25:31 AM CST
+// [Engine Memory]: 1,188 MB (+126kb) [00:13:36]
+// [Engine Memory]: 1,626 MB (+397533kb) [00:13:41]
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 1,628 MB. GUI used memory: 73 MB. Current time: 8/31/20 9:25:38 AM CST
+// TclEventType: DESIGN_NEW
+// Xgd.load filename: D:/Xilinx/Vivado/2017.4/data/parts/xilinx/artix7/devint/artix7/xc7a200t/xc7a200t.xgd; ZipEntry: xc7a200t_detail.xgd elapsed time: 0.5s
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// RouteApi::loadEngineXgd elapsed time: 1.1s
+// [Engine Memory]: 1,715 MB (+7683kb) [00:13:45]
+// Device: addNotify
+// DeviceView Instantiated
+// Tcl Message: Parsing XDC File [e:/ysc/vivadoproject1/DynamicDisplay.srcs/sources_1/ip/DCM_PLL/DCM_PLL_board.xdc] for cell 'DCM_INST/inst' Finished Parsing XDC File [e:/ysc/vivadoproject1/DynamicDisplay.srcs/sources_1/ip/DCM_PLL/DCM_PLL_board.xdc] for cell 'DCM_INST/inst' Parsing XDC File [e:/ysc/vivadoproject1/DynamicDisplay.srcs/sources_1/ip/DCM_PLL/DCM_PLL.xdc] for cell 'DCM_INST/inst' 
+// Tcl Message: INFO: [Timing 38-35] Done setting XDC timing constraints. [e:/ysc/vivadoproject1/DynamicDisplay.srcs/sources_1/ip/DCM_PLL/DCM_PLL.xdc:57] INFO: [Timing 38-2] Deriving generated clocks [e:/ysc/vivadoproject1/DynamicDisplay.srcs/sources_1/ip/DCM_PLL/DCM_PLL.xdc:57] 
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: get_clocks: Time (s): cpu = 00:00:12 ; elapsed = 00:00:11 . Memory (MB): peak = 1820.082 ; gain = 611.023 
+// Tcl Message: Finished Parsing XDC File [e:/ysc/vivadoproject1/DynamicDisplay.srcs/sources_1/ip/DCM_PLL/DCM_PLL.xdc] for cell 'DCM_INST/inst' Parsing XDC File [E:/ysc/DynamicDisplay.xdc] Finished Parsing XDC File [E:/ysc/DynamicDisplay.xdc] 
+// Tcl Message: INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s). INFO: [Project 1-111] Unisim Transformation Summary:   A total of 4 instances were transformed.   OBUFDS => OBUFDS_DUAL_BUF (INV, OBUFDS, OBUFDS): 4 instances  
+// Device view-level: 0.0
+// Tcl Message: open_run: Time (s): cpu = 00:00:30 ; elapsed = 00:00:26 . Memory (MB): peak = 1825.750 ; gain = 1009.758 
+// 'dO' command handler elapsed time: 27 seconds
+// [GUI Memory]: 127 MB (+4555kb) [00:13:47]
+// RouteApi: Init Delay Mediator Swing Worker Finished
+// Elapsed time: 27 seconds
+dismissDialog("Open Synthesized Design"); // bs (cj)
+// Elapsed time: 43 seconds
+selectComboBox(RDIResource.MainWinToolbarMgr_SELECT_OR_SAVE_WINDOW_LAYOUT, "Debug", 3); // bc (f, cj)
+// Schematic: addNotify
+// [GUI Memory]: 134 MB (+731kb) [00:14:54]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,748 MB. GUI used memory: 104 MB. Current time: 8/31/20 9:26:56 AM CST
+// PAPropertyPanels.initPanels (action_u (action)) elapsed time: 0.2s
+// Elapsed time: 69 seconds
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[DynamicDisplay, action_u (action)]", 3, false); // aW (O, cj)
+selectTab((HResource) null, (HResource) null, "Sources", 0); // aF (Q, cj)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, DynamicDisplay (DynamicDisplay.v)]", 1); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, DynamicDisplay (DynamicDisplay.v), action_u : action (action.v)]", 6, true); // B (D, cj) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, DynamicDisplay (DynamicDisplay.v), action_u : action (action.v)]", 6, true, false, false, false, false, true); // B (D, cj) - Double Click - Node
+// [GUI Memory]: 142 MB (+1279kb) [00:15:44]
+// Elapsed time: 10 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "button_process_unit.v", 1); // k (j, cj)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "DynamicDisplay.v", 3); // k (j, cj)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "button_process_unit.v", 1); // k (j, cj)
+selectTab((HResource) null, (HResource) null, "Netlist", 1); // aF (Q, cj)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "DynamicDisplay.v", 3); // k (j, cj)
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[DynamicDisplay]", 0, true); // aW (O, cj) - Node
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "button_process_unit.v", 1); // k (j, cj)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Schematic", 0); // k (j, cj)
+// [GUI Memory]: 149 MB (+94kb) [00:16:55]
+// Elapsed time: 98 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "button_process_unit.v", 1); // k (j, cj)
+selectCodeEditor("button_process_unit.v", 103, 125); // cd (w, cj)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Schematic", 0); // k (j, cj)
+// Elapsed time: 114 seconds
+selectTab((HResource) null, (HResource) null, "Design Runs", 4); // aF (Q, cj)
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "synth_1 ; constrs_1 ; synth_design Complete! ;  ;  ;  ;  ;  ;  ;  ; 603 ; 169 ; 0.0 ; 0 ; 0 ; Mon Aug 31 09:24:08 CST 2020 ; 00:00:45 ; Vivado Synthesis Defaults (Vivado Synthesis 2017) ; Vivado Synthesis Default Reports (Vivado Synthesis 2017) ; xc7a200tfbg484-1 ; Vivado Synthesis Defaults", 0, "synth_1", 0, true); // ax (O, cj) - Node
+// PAPropertyPanels.initPanels (synth_1) elapsed time: 0.2s
+// Elapsed time: 24 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "DynamicDisplay.v", 3); // k (j, cj)
+// [GUI Memory]: 158 MB (+806kb) [00:20:14]
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Schematic", 0); // k (j, cj)
+// Elapsed time: 14 seconds
+selectComboBox(RDIResource.MainWinToolbarMgr_SELECT_OR_SAVE_WINDOW_LAYOUT, "I/O Planning", 1); // bc (f, cj)
+// Package: addNotify
+// Device: addNotify
+// DeviceView Instantiated
+collapseTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "All ports (11) ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; ", 0); // G (O, cj)
+expandTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "All ports (11) ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; ", 0); // G (O, cj)
+selectTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "All ports (11) ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; ", 0, "All ports (11)", 0, true, false, false, false, false, true); // G (O, cj) - Double Click - Node
+expandTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "TMDSp (6) ; OUT ; TMDSn ;  ;  ;  ; default (DIFF_HSTL_II_18) ; 1.8 ;  ;  ; SLOW ; NONE ; NP_VTT_50_FP_VTT_50 ; ", 1); // G (O, cj)
+selectTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "TMDSp[0] ; OUT ; TMDSn[0] ;  ;  ;  ; default (DIFF_HSTL_II_18) ; 1.8 ;  ;  ; SLOW ; NONE ; NP_VTT_50_FP_VTT_50 ; ", 4, "OUT", 1, false); // G (O, cj)
+expandTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "Scalar ports (5) ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; ", 5); // G (O, cj)
+// Elapsed time: 14 seconds
+selectTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "reset ; IN ;  ; B22 ; true ; 16 ; default (LVCMOS18) ; 1.8 ;  ;  ;  ; NONE ; NONE ; ", 7, "default (LVCMOS18)", 6, false); // G (O, cj)
+// TclEventType: SIGNAL_MODIFY
+// Tcl Message: set_property IOSTANDARD LVCMOS33 [get_ports [list reset]] 
+// Elapsed time: 11 seconds
+selectTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "run ; IN ;  ;  ;  ;  ; default (LVCMOS18) ; 1.8 ;  ;  ;  ; NONE ; NONE ; ", 8, (String) null, 3, false); // G (O, cj)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,769 MB. GUI used memory: 123 MB. Current time: 8/31/20 9:33:06 AM CST
+// TclEventType: LOC_CONSTRAINT_ADD
+// Tcl Message: place_ports run E22 
+selectTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "run ; IN ;  ; E22 ; true ; 16 ; default (LVCMOS18) ; 1.8 ;  ;  ;  ; NONE ; NONE ; ", 8, "default (LVCMOS18)", 6, false); // G (O, cj)
+// TclEventType: SIGNAL_MODIFY
+// Tcl Message: set_property IOSTANDARD LVCMOS33 [get_ports [list run]] 
+// [GUI Memory]: 168 MB (+2556kb) [00:21:22]
+// Elapsed time: 15 seconds
+selectTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "TMDSp_clk ; OUT ; TMDSn_clk ;  ;  ;  ; default (DIFF_HSTL_II_18) ; 1.8 ;  ;  ; SLOW ; NONE ; NP_VTT_50_FP_VTT_50 ; ", 9, (String) null, 3, false); // G (O, cj)
+selectTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "TMDSp_clk ; OUT ; TMDSn_clk ;  ;  ;  ; default (DIFF_HSTL_II_18) ; 1.8 ;  ;  ; SLOW ; NONE ; NP_VTT_50_FP_VTT_50 ; ", 9, "OUT", 1, false); // G (O, cj)
+// Tcl Message: set_property package_pin "" [get_ports [list  TMDSp_clk]] 
+selectTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "TMDSp_clk ; OUT ; TMDSn_clk ;  ;  ;  ; default (DIFF_HSTL_II_18) ; 1.8 ;  ;  ; SLOW ; NONE ; NP_VTT_50_FP_VTT_50 ; ", 9, "OUT", 1, false); // G (O, cj)
+selectTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "TMDSp_clk ; OUT ; TMDSn_clk ;  ;  ;  ; default (DIFF_HSTL_II_18) ; 1.8 ;  ;  ; SLOW ; NONE ; NP_VTT_50_FP_VTT_50 ; ", 9, "OUT", 1, false); // G (O, cj)
+selectTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "TMDSp_clk ; OUT ; TMDSn_clk ;  ;  ;  ; default (DIFF_HSTL_II_18) ; 1.8 ;  ;  ; SLOW ; NONE ; NP_VTT_50_FP_VTT_50 ; ", 9, (String) null, 3, false); // G (O, cj)
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// Tcl Message: place_ports TMDSp_clk T1 
+// Elapsed time: 12 seconds
+selectTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "TMDSp_clk ; OUT ; TMDSn_clk ; T1 ; true ; 34 ; default (DIFF_HSTL_II_18) ; 1.8 ;  ;  ; SLOW ; NONE ; NP_VTT_50_FP_VTT_50 ; ", 9, "default (DIFF_HSTL_II_18)", 6, false); // G (O, cj)
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: NETLIST_UPDATE
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: NETLIST_UPDATE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,769 MB. GUI used memory: 124 MB. Current time: 8/31/20 9:33:45 AM CST
+// PAPropertyPanels.initPanels (TMDSp_clk) elapsed time: 0.3s
+// Tcl Message: set_property IOSTANDARD TMDS_33 [get_ports [list TMDSp_clk]] 
+// Elapsed time: 10 seconds
+collapseTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "TMDSp (6) ; OUT ; TMDSn ;  ;  ;  ; default (DIFF_HSTL_II_18) ; 1.8 ;  ;  ; SLOW ; NONE ; NP_VTT_50_FP_VTT_50 ; ", 1); // G (O, cj)
+expandTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "TMDSp (6) ; OUT ; TMDSn ;  ;  ;  ; default (DIFF_HSTL_II_18) ; 1.8 ;  ;  ; SLOW ; NONE ; NP_VTT_50_FP_VTT_50 ; ", 1); // G (O, cj)
+// Elapsed time: 12 seconds
+selectTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "TMDSp_clk ; OUT ; TMDSn_clk ; T1 ; true ; 34 ; TMDS_33 ; 3.3 ;  ;  ;  ; NONE ; FP_3.3_50 ; ", 9, "T1", 3, false); // G (O, cj)
+// Elapsed time: 10 seconds
+selectTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "clk ; IN ;  ; R4 ; true ; 34 ; LVCMOS33 ; 3.3 ;  ;  ;  ; NONE ; NONE ; ", 6, (String) null, 2, false); // G (O, cj)
+selectTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "TMDSp[0] ; OUT ; TMDSn[0] ;  ;  ;  ; default (DIFF_HSTL_II_18) ; 1.8 ;  ;  ; SLOW ; NONE ; NP_VTT_50_FP_VTT_50 ; ", 4, (String) null, 3, false); // G (O, cj)
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// Tcl Message: place_ports {TMDSp[0]} W1 
+// Elapsed time: 12 seconds
+selectTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "TMDSp[0] ; OUT ; TMDSn[0] ; W1 ; true ; 34 ; default (DIFF_HSTL_II_18) ; 1.8 ;  ;  ; SLOW ; NONE ; NP_VTT_50_FP_VTT_50 ; ", 4, "W1", 3, false); // G (O, cj)
+selectTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "TMDSp[0] ; OUT ; TMDSn[0] ; W1 ; true ; 34 ; default (DIFF_HSTL_II_18) ; 1.8 ;  ;  ; SLOW ; NONE ; NP_VTT_50_FP_VTT_50 ; ", 4, "TMDSn[0]", 2, false); // G (O, cj)
+selectTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "TMDSp[1] ; OUT ; TMDSn[1] ;  ;  ;  ; default (DIFF_HSTL_II_18) ; 1.8 ;  ;  ; SLOW ; NONE ; NP_VTT_50_FP_VTT_50 ; ", 3, (String) null, 3, false); // G (O, cj)
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// Tcl Message: place_ports {TMDSp[1]} AA1 
+selectTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "TMDSp[2] ; OUT ; TMDSn[2] ;  ;  ;  ; default (DIFF_HSTL_II_18) ; 1.8 ;  ;  ; SLOW ; NONE ; NP_VTT_50_FP_VTT_50 ; ", 2, (String) null, 3, false); // G (O, cj)
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// Tcl Message: place_ports {TMDSp[2]} AB3 
+// Elapsed time: 10 seconds
+selectTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "TMDSp[0] ; OUT ; TMDSn[0] ; W1 ; true ; 34 ; default (DIFF_HSTL_II_18) ; 1.8 ;  ;  ; SLOW ; NONE ; NP_VTT_50_FP_VTT_50 ; ", 4, "default (DIFF_HSTL_II_18)", 6, false); // G (O, cj)
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: NETLIST_UPDATE
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: NETLIST_UPDATE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,769 MB. GUI used memory: 123 MB. Current time: 8/31/20 9:35:03 AM CST
+// Tcl Message: set_property IOSTANDARD TMDS_33 [get_ports [list {TMDSp[0]}]] 
+selectTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "TMDSp[1] ; OUT ; TMDSn[1] ; AA1 ; true ; 34 ; default (DIFF_HSTL_II_18) ; 1.8 ;  ;  ; SLOW ; NONE ; NP_VTT_50_FP_VTT_50 ; ", 3, "default (DIFF_HSTL_II_18)", 6, false); // G (O, cj)
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: NETLIST_UPDATE
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: NETLIST_UPDATE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,769 MB. GUI used memory: 123 MB. Current time: 8/31/20 9:35:10 AM CST
+// PAPropertyPanels.initPanels (TMDSp[1]) elapsed time: 0.2s
+// Tcl Message: set_property IOSTANDARD TMDS_33 [get_ports [list {TMDSp[1]}]] 
+selectTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "TMDSp[2] ; OUT ; TMDSn[2] ; AB3 ; true ; 34 ; default (DIFF_HSTL_II_18) ; 1.8 ;  ;  ; SLOW ; NONE ; NP_VTT_50_FP_VTT_50 ; ", 2, "default (DIFF_HSTL_II_18)", 6, false); // G (O, cj)
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: NETLIST_UPDATE
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: NETLIST_UPDATE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,769 MB. GUI used memory: 123 MB. Current time: 8/31/20 9:35:11 AM CST
+// Tcl Message: set_property IOSTANDARD TMDS_33 [get_ports [list {TMDSp[2]}]] 
+// Elapsed time: 71 seconds
+selectButton(PAResourceCommand.PACommandNames_SAVE_DESIGN, "save_design"); // B (f, cj)
+// Run Command: PAResourceCommand.PACommandNames_SAVE_DESIGN
+// x (cj): Out of Date Design: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (x)
+// bs (cj):  Save Constraints : addNotify
+dismissDialog("Out of Date Design"); // x (cj)
+// TclEventType: DESIGN_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DESIGN_SAVE
+// [GUI Memory]: 177 MB (+617kb) [00:24:29]
+// TclEventType: DESIGN_SAVE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// Tcl Message: save_constraints 
+// 'h' command handler elapsed time: 3 seconds
+dismissDialog("Save Constraints"); // bs (cj)
+// [GUI Memory]: 189 MB (+3117kb) [00:25:01]
+// Elapsed time: 42 seconds
+selectButton((HResource) null, "I/O Ports_settings"); // u (f, cj): TRUE
+// Elapsed time: 10 seconds
+selectButton(PAResourceQtoS.SignalsView_EXPAND_ALL, "I/O Ports_expand_all"); // B (f, cj)
+selectTab((HResource) null, (HResource) null, "Package Pins", 5); // aF (Q, cj)
+selectTab((HResource) null, (HResource) null, "I/O Ports", 6); // aF (Q, cj)
+collapseTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "All ports (11) ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; ", 0); // G (O, cj)
+expandTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "All ports (11) ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; ", 0); // G (O, cj)
+selectButton(RDIResourceCommand.RDICommands_UNDO, "undo"); // B (f, cj)
+// Run Command: RDIResourceCommand.RDICommands_UNDO
+// TclEventType: SIGNAL_MODIFY
+// Tcl Message: undo 
+// Tcl Message: INFO: [Common 17-17] undo 'set_property IOSTANDARD TMDS_33 [get_ports [list {TMDSp[2]}]]' 
+selectTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "TMDSp[2] ; OUT ; TMDSn[2] ; AB3 ; true ; 34 ; default (DIFF_HSTL_II_18) ; 1.8 ;  ;  ; SLOW ; NONE ; NP_VTT_50_FP_VTT_50 ; ", 2, "default (DIFF_HSTL_II_18)", 6, false); // G (O, cj)
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: SIGNAL_MODIFY
+// Tcl Message: set_property IOSTANDARD TMDS_33 [get_ports [list {TMDSp[2]}]] 
+// Elapsed time: 33 seconds
+selectButton(PAResourceCommand.PACommandNames_SAVE_DESIGN, "save_design"); // B (f, cj)
+// Run Command: PAResourceCommand.PACommandNames_SAVE_DESIGN
+// x (cj): Out of Date Design: addNotify
+// bs (cj):  Save Constraints : addNotify
+// Elapsed time: 18 seconds
+dismissDialog("Out of Date Design"); // x (cj)
+// TclEventType: DESIGN_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DESIGN_SAVE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// Tcl Message: save_constraints 
+// 'h' command handler elapsed time: 18 seconds
+dismissDialog("Save Constraints"); // bs (cj)
+selectButton(RDIResourceCommand.RDICommands_UNDO, "undo"); // B (f, cj)
+// Run Command: RDIResourceCommand.RDICommands_UNDO
+// TclEventType: SIGNAL_MODIFY
+// Tcl Message: undo 
+// Tcl Message: INFO: [Common 17-17] undo 'set_property IOSTANDARD TMDS_33 [get_ports [list {TMDSp[2]}]]' 
+selectTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "TMDSp[2] ; OUT ; TMDSn[2] ; AB3 ; true ; 34 ; default (DIFF_HSTL_II_18) ; 1.8 ;  ;  ; SLOW ; NONE ; NP_VTT_50_FP_VTT_50 ; ", 2, "default (DIFF_HSTL_II_18)", 6, false); // G (O, cj)
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: SIGNAL_MODIFY
+// Tcl Message: set_property IOSTANDARD TMDS_33 [get_ports [list {TMDSp[2]}]] 
+// Elapsed time: 23 seconds
+selectButton(PAResourceCommand.PACommandNames_SAVE_DESIGN, "save_design"); // B (f, cj)
+// Run Command: PAResourceCommand.PACommandNames_SAVE_DESIGN
+// x (cj): Out of Date Design: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (x)
+// bs (cj):  Save Constraints : addNotify
+dismissDialog("Out of Date Design"); // x (cj)
+// TclEventType: DESIGN_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DESIGN_SAVE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// Tcl Message: save_constraints 
+dismissDialog("Save Constraints"); // bs (cj)
+selectTab((HResource) null, (HResource) null, "Sources", 0); // aF (Q, cj)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, DynamicDisplay (DynamicDisplay.v)]", 1); // B (D, cj)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 3); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, DynamicDisplay.xdc]", 5, false); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, DynamicDisplay.xdc]", 5, false); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, DynamicDisplay.xdc]", 5, false, false, false, false, false, true); // B (D, cj) - Double Click
+// Elapsed time: 32 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Open Synthesized Design, Constraints Wizard]", 16, false); // u (O, cj)
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, IP Integrator]", 1); // u (O, cj)
+// Run Command: PAResourceCommand.PACommandNames_TIMING_CONSTRAINTS_WIZARD
+// Tcl Command: 'create_clock -help'
+// Tcl Command: 'create_clock -help'
+// Tcl Command: 'create_clock -help'
+// Tcl Command: 'create_clock -help'
+// Tcl Command: 'create_clock -help'
+// Tcl Command: 'create_clock -help'
+// Tcl Command: 'create_clock -help'
+// Tcl Command: 'create_clock -help'
+// Tcl Command: 'create_clock -help'
+// Tcl Command: 'create_clock -help'
+// Tcl Command: 'create_clock -help'
+// cC (cj): Timing Constraints Wizard: addNotify
+// bs (cC):  Timing Constraints Wizard : addNotify
+// TclEventType: TIMING_CONSTRAINTS_WIZARD_CREATED
+// bs (cC):  Timing Constraints Wizard : addNotify
+selectButton("NEXT", "Next >"); // JButton (h, cC)
+dismissDialog("Timing Constraints Wizard"); // bs (cC)
+selectTableHeader(PAResourceOtoP.PrimaryClocksPanel_RECOMMENDED_CONSTRAINTS_TABLE, (String) null, 0); // cj (O, cC)
+selectTable(PAResourceOtoP.PrimaryClocksPanel_RECOMMENDED_CONSTRAINTS_TABLE, "true ; clk ; clk ;  ;  ;  ;  ; ", 0, (String) null, 3); // cj (O, cC)
+editTable(PAResourceOtoP.PrimaryClocksPanel_RECOMMENDED_CONSTRAINTS_TABLE, "100.0", 0, "Frequency (MHz)", 3); // cj (O, cC)
+// Elapsed time: 13 seconds
+selectButton(PAResourceTtoZ.TimingConstraintsWizard_GOTO_CONSTRAINTS_SUMMARY_PAGE, "Skip to Finish >>"); // a (h, cC)
+// bs (cC):  Apply XDC Constraints : addNotify
+// TclEventType: TIMING_RESULTS_STALE
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+dismissDialog("Apply XDC Constraints"); // bs (cC)
+// [GUI Memory]: 200 MB (+1422kb) [00:28:26]
+// bs (cj):  Commit Design Constraints : addNotify
+// TclEventType: DESIGN_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DESIGN_SAVE
+// TclEventType: SDC_CONSTR_MGR_CLEAR
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: DESIGN_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DESIGN_SAVE
+// TclEventType: TIMING_CONSTRAINTS_WIZARD_CLOSED
+selectButton("FINISH", "Finish"); // JButton (h, cC)
+dismissDialog("Commit Design Constraints"); // bs (cj)
+dismissDialog("Timing Constraints Wizard"); // cC (cj)
+selectCodeEditor("DynamicDisplay.xdc", 62, 363); // cd (w, cj)
+selectTab((HResource) null, (HResource) null, "Netlist", 1); // aF (Q, cj)
+selectTab((HResource) null, (HResource) null, "Sources", 0); // aF (Q, cj)
+selectButton(PAResourceAtoD.AbstractFileView_RELOAD, "Reload"); // h (cZ, cj)
+// Elapsed time: 25 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Run Implementation]", 29, false); // u (O, cj)
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0); // u (O, cj)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// x (cj): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (x)
+// 'c' command handler elapsed time: 7 seconds
+// bs (cj):  Resetting Runs : addNotify
+dismissDialog("Synthesis is Out-of-date"); // x (cj)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (cj): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bs (cj):  Starting Design Runs : addNotify
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+dismissDialog("Launch Runs"); // f (cj)
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -jobs 2 
+// Tcl Message: [Mon Aug 31 09:41:09 2020] Launched synth_1... Run output will be captured here: E:/ysc/vivadoproject1/DynamicDisplay.runs/synth_1/runme.log [Mon Aug 31 09:41:09 2020] Launched impl_1... Run output will be captured here: E:/ysc/vivadoproject1/DynamicDisplay.runs/impl_1/runme.log 
+dismissDialog("Starting Design Runs"); // bs (cj)
+selectTab((HResource) null, (HResource) null, "Tcl Console", 0); // aF (Q, cj)
+selectTab((HResource) null, (HResource) null, "Messages", 1); // aF (Q, cj)
+// [GUI Memory]: 213 MB (+3315kb) [00:29:25]
+selectTab((HResource) null, (HResource) null, "Log", 2); // aF (Q, cj)
+selectTab((HResource) null, (HResource) null, "Reports", 3); // aF (Q, cj)
+selectTab((HResource) null, (HResource) null, "Design Runs", 4); // aF (Q, cj)
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_COMPLETED
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STEP_COMPLETED
+// ah (cj): Implementation Failed: addNotify
+// Elapsed time: 76 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Implementation Failed"); // ah (cj)
+collapseTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Opt Design]", 5); // ah (O, cj)
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Opt Design]", 5); // ah (O, cj)
+// Elapsed time: 25 seconds
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Opt Design, DRC, Netlist, Net, [DRC MDRV-1] Multiple Driver Nets: Net bg_layer_u/Q[0] has multiple drivers: ROMInst1_i_10/O, and bg_layer_u/addr_reg[0]/Q.. ]", 9); // ah (O, cj)
+// Elapsed time: 19 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, DynamicDisplay (DynamicDisplay.v)]", 1); // B (D, cj)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, DynamicDisplay (DynamicDisplay.v)]", 1); // B (D, cj)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Coefficient Files]", 2); // B (D, cj)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Coefficient Files]", 2); // B (D, cj)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Coefficient Files]", 2); // B (D, cj)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Coefficient Files]", 2); // B (D, cj)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, DynamicDisplay (DynamicDisplay.v)]", 1); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, DynamicDisplay (DynamicDisplay.v), bg_layer_u : bg_layer (bg_layer.v)]", 7, true); // B (D, cj) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, DynamicDisplay (DynamicDisplay.v), bg_layer_u : bg_layer (bg_layer.v)]", 7, true); // B (D, cj) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, DynamicDisplay (DynamicDisplay.v), bg_layer_u : bg_layer (bg_layer.v)]", 7, true, false, false, false, false, true); // B (D, cj) - Double Click - Node
+// Elapsed time: 152 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Constraints 18-619] A clock with name 'clk' already exists, overwriting the previous clock with the same name. [E:/ysc/DynamicDisplay.xdc:20]. ]", 6, false); // ah (O, cj)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-3848] Net ButtonIn in module/entity DynamicDisplay does not have driver. [E:/ysc/DynamicDisplay.v:23]. ]", 5, false); // ah (O, cj)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "DynamicDisplay.v", 5); // k (j, cj)
+// Elapsed time: 78 seconds
+selectCheckBox(PAResourceItoN.MsgView_WARNING_MESSAGES, (String) null, false); // g (aQ, cj): FALSE
+// Elapsed time: 16 seconds
+selectCodeEditor("DynamicDisplay.v", 220, 8); // cd (w, cj)
+// Elapsed time: 20 seconds
+selectCodeEditor("DynamicDisplay.v", 78, 65); // cd (w, cj)
+// Elapsed time: 15 seconds
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, cj)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTab((HResource) null, (HResource) null, "Reports", 3); // aF (Q, cj)
+selectTab((HResource) null, (HResource) null, "Design Runs", 4); // aF (Q, cj)
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "synth_1 ; constrs_1 ; Synthesis Out-of-date ;  ;  ;  ;  ;  ;  ;  ; 603 ; 169 ; 0.0 ; 0 ; 0 ; Mon Aug 31 09:41:20 CST 2020 ; 00:00:38 ; Vivado Synthesis Defaults (Vivado Synthesis 2017) ; Vivado Synthesis Default Reports (Vivado Synthesis 2017) ; xc7a200tfbg484-1 ; Vivado Synthesis Defaults", 0, "synth_1", 0, true); // ax (O, cj) - Node
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "impl_1 ; constrs_1 ; Implementation Out-of-date ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Mon Aug 31 09:42:09 CST 2020 ; 00:00:23 ; Vivado Implementation Defaults (Vivado Implementation 2017) ; Vivado Implementation Default Reports (Vivado Implementation 2017) ; xc7a200tfbg484-1 ; Default settings for Implementation.", 1, "impl_1", 0, false); // ax (O, cj)
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "synth_1 ; constrs_1 ; Synthesis Out-of-date ;  ;  ;  ;  ;  ;  ;  ; 603 ; 169 ; 0.0 ; 0 ; 0 ; Mon Aug 31 09:41:20 CST 2020 ; 00:00:38 ; Vivado Synthesis Defaults (Vivado Synthesis 2017) ; Vivado Synthesis Default Reports (Vivado Synthesis 2017) ; xc7a200tfbg484-1 ; Vivado Synthesis Defaults", 0, "synth_1", 0, true); // ax (O, cj) - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (O, cj)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bs (cj):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// f (cj): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bs (cj):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (cj)
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 2 
+// Tcl Message: [Mon Aug 31 09:49:02 2020] Launched synth_1... Run output will be captured here: E:/ysc/vivadoproject1/DynamicDisplay.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bs (cj)
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_COMPLETED
+// ah (cj): Synthesis Completed: addNotify
+// Elapsed time: 51 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_GOTO_NETLIST_DESIGN, "Open Synthesized Design"); // a (N, ah)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_GOTO_NETLIST_DESIGN
+// bs (cj):  Reloading design : addNotify
+// TclEventType: DESIGN_CLOSE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,773 MB. GUI used memory: 119 MB. Current time: 8/31/20 9:49:57 AM CST
+// Engine heap size: 1,773 MB. GUI used memory: 119 MB. Current time: 8/31/20 9:49:57 AM CST
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: close_design 
+// TclEventType: DESIGN_CLOSE
+// Tcl Message: open_run synth_1 -name synth_1 
+// Tcl Message: Design is defaulting to impl run constrset: constrs_1 Design is defaulting to synth run part: xc7a200tfbg484-1 
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: POWER_CNS_STALE
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 1,773 MB. GUI used memory: 84 MB. Current time: 8/31/20 9:50:03 AM CST
+// TclEventType: DESIGN_NEW
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// Package: addNotify
+// Device: addNotify
+// DeviceView Instantiated
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: Parsing XDC File [e:/ysc/vivadoproject1/DynamicDisplay.srcs/sources_1/ip/DCM_PLL/DCM_PLL_board.xdc] for cell 'DCM_INST/inst' Finished Parsing XDC File [e:/ysc/vivadoproject1/DynamicDisplay.srcs/sources_1/ip/DCM_PLL/DCM_PLL_board.xdc] for cell 'DCM_INST/inst' Parsing XDC File [e:/ysc/vivadoproject1/DynamicDisplay.srcs/sources_1/ip/DCM_PLL/DCM_PLL.xdc] for cell 'DCM_INST/inst' 
+// Tcl Message: INFO: [Timing 38-35] Done setting XDC timing constraints. [e:/ysc/vivadoproject1/DynamicDisplay.srcs/sources_1/ip/DCM_PLL/DCM_PLL.xdc:57] INFO: [Timing 38-2] Deriving generated clocks [e:/ysc/vivadoproject1/DynamicDisplay.srcs/sources_1/ip/DCM_PLL/DCM_PLL.xdc:57] 
+// Tcl Message: Finished Parsing XDC File [e:/ysc/vivadoproject1/DynamicDisplay.srcs/sources_1/ip/DCM_PLL/DCM_PLL.xdc] for cell 'DCM_INST/inst' Parsing XDC File [E:/ysc/DynamicDisplay.xdc] 
+// Tcl Message: Finished Parsing XDC File [E:/ysc/DynamicDisplay.xdc] 
+// Tcl Message: INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s). INFO: [Project 1-111] Unisim Transformation Summary:   A total of 4 instances were transformed.   OBUFDS => OBUFDS: 4 instances  
+// Tcl Message: open_run: Time (s): cpu = 00:00:11 ; elapsed = 00:00:07 . Memory (MB): peak = 2086.848 ; gain = 0.000 
+// M (cj): Critical Messages: addNotify
+// RouteApi: Init Delay Mediator Swing Worker Finished
+// Elapsed time: 10 seconds
+dismissDialog("Reloading design"); // bs (cj)
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (M)
+dismissDialog("Critical Messages"); // M (cj)
+selectComboBox(RDIResource.MainWinToolbarMgr_SELECT_OR_SAVE_WINDOW_LAYOUT, "Debug", 3); // bc (f, cj)
+// Schematic: addNotify
+// Elapsed time: 14 seconds
+selectComboBox(RDIResource.MainWinToolbarMgr_SELECT_OR_SAVE_WINDOW_LAYOUT, "I/O Planning", 1); // bc (f, cj)
+// Package: addNotify
+// Device: addNotify
+// DeviceView Instantiated
+expandTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "TMDSp (6) ; OUT ; TMDSn ;  ; true ; 34 ; TMDS_33 ; 3.3 ;  ;  ;  ; NONE ; FP_3.3_50 ; ", 1); // G (O, cj)
+expandTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "Scalar ports (5) ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; ", 5); // G (O, cj)
+// Elapsed time: 16 seconds
+selectTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "ButtonIn ; IN ;  ;  ;  ;  ; default (LVCMOS18) ; 1.8 ;  ;  ;  ; NONE ; NONE ; ", 6, (String) null, 3, false); // G (O, cj)
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// Tcl Message: place_ports ButtonIn E22 
+selectTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "ButtonIn ; IN ;  ; E22 ; true ; 16 ; default (LVCMOS18) ; 1.8 ;  ;  ;  ; NONE ; NONE ; ", 6, "default (LVCMOS18)", 6, false); // G (O, cj)
+// TclEventType: SIGNAL_MODIFY
+// Tcl Message: set_property IOSTANDARD LVCMOS33 [get_ports [list ButtonIn]] 
+selectButton(PAResourceCommand.PACommandNames_SAVE_DESIGN, "save_design"); // B (f, cj)
+// Run Command: PAResourceCommand.PACommandNames_SAVE_DESIGN
+// x (cj): Out of Date Design: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (x)
+// bs (cj):  Save Constraints : addNotify
+dismissDialog("Out of Date Design"); // x (cj)
+// TclEventType: DESIGN_SAVE
+// TclEventType: DESIGN_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DESIGN_SAVE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// Tcl Message: save_constraints 
+dismissDialog("Save Constraints"); // bs (cj)
+// Elapsed time: 17 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, DynamicDisplay.xdc]", 17, false); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1]", 16, true, false, false, false, false, true); // B (D, cj) - Double Click - Node
+// Elapsed time: 15 seconds
+selectButton(PAResourceAtoD.AbstractFileView_RELOAD, "Reload"); // h (cZ, cj)
+// Elapsed time: 19 seconds
+selectCodeEditor("DynamicDisplay.xdc", 312, 143); // cd (w, cj)
+selectCodeEditor("DynamicDisplay.xdc", 335, 101); // cd (w, cj)
+selectCodeEditor("DynamicDisplay.xdc", 339, 73); // cd (w, cj)
+selectButton(PAResourceAtoD.AbstractFileView_CLOSE, (String) null); // k (B, cj)
+selectCodeEditor("DynamicDisplay.xdc", 424, 111); // cd (w, cj)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, DynamicDisplay.xdc]", 17, false); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, DynamicDisplay.xdc]", 17, false, false, false, false, false, true); // B (D, cj) - Double Click
+selectCodeEditor("DynamicDisplay.xdc", 332, 120); // cd (w, cj)
+selectCodeEditor("DynamicDisplay.xdc", 263, 118); // cd (w, cj)
+selectCodeEditor("DynamicDisplay.xdc", 269, 91); // cd (w, cj)
+selectCodeEditor("DynamicDisplay.xdc", 310, 90); // cd (w, cj)
+selectCodeEditor("DynamicDisplay.xdc", 349, 82); // cd (w, cj)
+// Elapsed time: 12 seconds
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+selectButton(PAResourceOtoP.ProjectTab_RELOAD, "Reload"); // h (cZ, cj)
+// bs (cj):  Reloading : addNotify
+// TclEventType: DESIGN_REFRESH
+// HMemoryUtils.trashcanNow. Engine heap size: 1,773 MB. GUI used memory: 100 MB. Current time: 8/31/20 9:52:42 AM CST
+// Engine heap size: 1,773 MB. GUI used memory: 101 MB. Current time: 8/31/20 9:52:42 AM CST
+// Tcl Message: refresh_design 
+// TclEventType: NETLIST_UPDATE
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: POWER_CNS_STALE
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_REFRESH
+// HMemoryUtils.trashcanNow. Engine heap size: 1,773 MB. GUI used memory: 87 MB. Current time: 8/31/20 9:52:46 AM CST
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// Package: addNotify
+// Device: addNotify
+// DeviceView Instantiated
+// Schematic: addNotify
+// Tcl Message: INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message: Parsing XDC File [e:/ysc/vivadoproject1/DynamicDisplay.srcs/sources_1/ip/DCM_PLL/DCM_PLL_board.xdc] for cell 'DCM_INST/inst' Finished Parsing XDC File [e:/ysc/vivadoproject1/DynamicDisplay.srcs/sources_1/ip/DCM_PLL/DCM_PLL_board.xdc] for cell 'DCM_INST/inst' Parsing XDC File [e:/ysc/vivadoproject1/DynamicDisplay.srcs/sources_1/ip/DCM_PLL/DCM_PLL.xdc] for cell 'DCM_INST/inst' 
+// Tcl Message: INFO: [Timing 38-35] Done setting XDC timing constraints. [e:/ysc/vivadoproject1/DynamicDisplay.srcs/sources_1/ip/DCM_PLL/DCM_PLL.xdc:57] INFO: [Timing 38-2] Deriving generated clocks [e:/ysc/vivadoproject1/DynamicDisplay.srcs/sources_1/ip/DCM_PLL/DCM_PLL.xdc:57] 
+// Tcl Message: Finished Parsing XDC File [e:/ysc/vivadoproject1/DynamicDisplay.srcs/sources_1/ip/DCM_PLL/DCM_PLL.xdc] for cell 'DCM_INST/inst' Parsing XDC File [E:/ysc/DynamicDisplay.xdc] 
+// Tcl Message: Finished Parsing XDC File [E:/ysc/DynamicDisplay.xdc] 
+// Tcl Message: INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s). 
+// TclEventType: NETLIST_UPDATE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,773 MB. GUI used memory: 118 MB. Current time: 8/31/20 9:52:49 AM CST
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: refresh_design: Time (s): cpu = 00:00:11 ; elapsed = 00:00:07 . Memory (MB): peak = 2086.848 ; gain = 0.000 
+// RouteApi: Init Delay Mediator Swing Worker Finished
+// TclEventType: NETLIST_UPDATE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,773 MB. GUI used memory: 118 MB. Current time: 8/31/20 9:52:49 AM CST
+// M (cj): Critical Messages: addNotify
+dismissDialog("Reloading"); // bs (cj)
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (M)
+dismissDialog("Critical Messages"); // M (cj)
+expandTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "Scalar ports (5) ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; ", 2); // G (O, cj)
+expandTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "TMDSp (6) ; OUT ; TMDSn ;  ; true ; 34 ; TMDS_33 ; 3.3 ;  ;  ;  ; NONE ; FP_3.3_50 ; ", 1); // G (O, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, DynamicDisplay.xdc]", 17, false); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, DynamicDisplay.xdc]", 17, false, false, false, false, false, true); // B (D, cj) - Double Click
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, DynamicDisplay.xdc]", 17, false, false, false, false, true, false); // B (D, cj) - Popup Trigger
+selectTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "TMDSp[1] ; OUT ; TMDSn[1] ; AA1 ; true ; 34 ; TMDS_33 ; 3.3 ;  ;  ;  ; NONE ; FP_3.3_50 ; ", 3, "TMDSn[1]", 2, false); // G (O, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1]", 16, true); // B (D, cj) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, DynamicDisplay.xdc]", 17, false); // B (D, cj)
+// Elapsed time: 16 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, DynamicDisplay.xdc]", 17, false, false, false, false, true, false); // B (D, cj) - Popup Trigger
+selectCodeEditor("bg_layer.v", 483, 158); // cd (w, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, DynamicDisplay.xdc]", 17, false, false, false, false, true, false); // B (D, cj) - Popup Trigger
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // Z (ai, cj)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // Z (ai, cj)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // Z (ai, cj)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // Z (ai, cj)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // Z (ai, cj)
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // ac (ai, cj)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// as (cj): Remove Sources: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (as)
+dismissDialog("Remove Sources"); // as (cj)
+// Tcl Message: export_ip_user_files -of_objects  [get_files E:/ysc/DynamicDisplay.xdc] -no_script -reset -force -quiet 
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: DESIGN_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: remove_files  -fileset constrs_1 E:/ysc/DynamicDisplay.xdc 
+selectTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "TMDSp[1] ; OUT ; TMDSn[1] ; AA1 ; true ; 34 ; TMDS_33 ; 3.3 ;  ;  ;  ; NONE ; FP_3.3_50 ; ", 3, "AA1", 3, false); // G (O, cj)
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// Tcl Message: place_ports {TMDSp[1]} AA5 
+selectTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "TMDSp[1] ; OUT ; TMDSn[1] ; AA5 ; true ; 34 ; TMDS_33 ; 3.3 ;  ;  ;  ; NONE ; FP_3.3_50 ; ", 3, "AA5", 3, false); // G (O, cj)
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// Tcl Message: place_ports {TMDSp[1]} AA1 
+// Elapsed time: 13 seconds
+selectButton(PAResourceCommand.PACommandNames_SAVE_DESIGN, "save_design"); // B (f, cj)
+// Run Command: PAResourceCommand.PACommandNames_SAVE_DESIGN
+// E (cj): Save Constraints: addNotify
+// Elapsed time: 12 seconds
+selectButton(PAResourceItoN.ModifiedConstraintsWithoutTargetDialog_CREATE, "Create"); // a (E)
+// F (cj): Save Constraints As : addNotify
+dismissDialog("Save Constraints"); // E (cj)
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (F)
+// 'h' command handler elapsed time: 15 seconds
+dismissDialog("Save Constraints As"); // F (cj)
+selectButton(PAResourceCommand.PACommandNames_SAVE_DESIGN, "save_design"); // B (f, cj)
+// Run Command: PAResourceCommand.PACommandNames_SAVE_DESIGN
+// E (cj): Save Constraints: addNotify
+selectButton(PAResourceItoN.ModifiedConstraintsWithoutTargetDialog_UPDATE, "Update"); // a (E)
+// a (cj): Save Constraints: addNotify
+dismissDialog("Save Constraints"); // E (cj)
+// Elapsed time: 16 seconds
+setText(PAResourceAtoD.CreateConstraintsFilePanel_FILE_NAME, "DynamicDisplay"); // X (C, a)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (a)
+// TclEventType: DESIGN_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// bs (cj):  Save Constraints : addNotify
+// Tcl Message: file mkdir E:/ysc/vivadoproject1/DynamicDisplay.srcs/constrs_1/new 
+// Tcl Message: close [ open E:/ysc/vivadoproject1/DynamicDisplay.srcs/constrs_1/new/DynamicDisplay.xdc w ] 
+// Tcl Message: add_files -fileset constrs_1 E:/ysc/vivadoproject1/DynamicDisplay.srcs/constrs_1/new/DynamicDisplay.xdc 
+// Tcl Message: set_property target_constrs_file E:/ysc/vivadoproject1/DynamicDisplay.srcs/constrs_1/new/DynamicDisplay.xdc [current_fileset -constrset] 
+dismissDialog("Save Constraints"); // a (cj)
+// TclEventType: DESIGN_SAVE
+// Tcl Message: save_constraints -force 
+// 'h' command handler elapsed time: 17 seconds
+dismissDialog("Save Constraints"); // bs (cj)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1]", 16); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, DynamicDisplay.xdc]", 17, false); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, DynamicDisplay.xdc]", 17, false); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, DynamicDisplay.xdc]", 17, false, false, false, false, false, true); // B (D, cj) - Double Click
+// Elapsed time: 25 seconds
+selectCodeEditor("DynamicDisplay.xdc", 175, 125); // cd (w, cj)
+// Elapsed time: 48 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, DynamicDisplay.xdc]", 17, false, false, false, false, true, false); // B (D, cj) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // ac (ai, cj)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// as (cj): Remove Sources: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (as)
+dismissDialog("Remove Sources"); // as (cj)
+// Tcl Message: export_ip_user_files -of_objects  [get_files E:/ysc/vivadoproject1/DynamicDisplay.srcs/constrs_1/new/DynamicDisplay.xdc] -no_script -reset -force -quiet 
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: DESIGN_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: remove_files  -fileset constrs_1 E:/ysc/vivadoproject1/DynamicDisplay.srcs/constrs_1/new/DynamicDisplay.xdc 
+selectTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "TMDSp[0] ; OUT ; TMDSn[0] ; W1 ; true ; 34 ; TMDS_33 ; 3.3 ;  ;  ;  ; NONE ; FP_3.3_50 ; ", 4, "W1", 3, false); // G (O, cj)
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// Tcl Message: place_ports {TMDSp[0]} AA8 
+selectTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "TMDSp[0] ; OUT ; TMDSn[0] ; AA8 ; true ; 34 ; TMDS_33 ; 3.3 ;  ;  ;  ; NONE ; FP_3.3_50 ; ", 4, "AA8", 3, false); // G (O, cj)
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// Tcl Message: place_ports {TMDSp[0]} W1 
+selectButton(PAResourceCommand.PACommandNames_SAVE_DESIGN, "save_design"); // B (f, cj)
+// Run Command: PAResourceCommand.PACommandNames_SAVE_DESIGN
+// E (cj): Save Constraints: addNotify
+selectButton(PAResourceItoN.ModifiedConstraintsWithoutTargetDialog_UPDATE, "Update"); // a (E)
+// a (cj): Save Constraints: addNotify
+dismissDialog("Save Constraints"); // E (cj)
+// Elapsed time: 10 seconds
+setText(PAResourceAtoD.CreateConstraintsFilePanel_FILE_NAME, "DynamicDisplay"); // X (C, a)
+selectComboBox(PAResourceAtoD.CreateConstraintsFilePanel_FILE_LOCATION, "Choose Location...", 1); // e (C, a)
+setFolderChooser("E:/ysc");
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (a)
+// HOptionPane Warning: ''DynamicDisplay.xdc' already exists. Please enter another name. (Create constraints file)'
+selectButton("PAResourceAtoD.CreateConstraintsFilePanel_FILE_WITH_SPECIFIED_NAME_ALREADY_OK", "OK"); // JButton (A, H)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (a)
+// HOptionPane Warning: ''DynamicDisplay.xdc' already exists. Please enter another name. (Create constraints file)'
+selectButton("PAResourceAtoD.CreateConstraintsFilePanel_FILE_WITH_SPECIFIED_NAME_ALREADY_OK", "OK"); // JButton (A, H)
+// 'h' command handler elapsed time: 34 seconds
+dismissDialog("Save Constraints"); // a (cj)
+// Elapsed time: 20 seconds
+selectButton(PAResourceCommand.PACommandNames_SAVE_DESIGN, "save_design"); // B (f, cj)
+// Run Command: PAResourceCommand.PACommandNames_SAVE_DESIGN
+// E (cj): Save Constraints: addNotify
+selectButton(PAResourceItoN.ModifiedConstraintsWithoutTargetDialog_UPDATE, "Update"); // a (E)
+// a (cj): Save Constraints: addNotify
+dismissDialog("Save Constraints"); // E (cj)
+// Elapsed time: 15 seconds
+setText(PAResourceAtoD.CreateConstraintsFilePanel_FILE_NAME, "DynamicDisplay"); // X (C, a)
+selectComboBox(PAResourceAtoD.CreateConstraintsFilePanel_FILE_LOCATION, "Choose Location...", 1); // e (C, a)
+setFolderChooser("E:/ysc");
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (a)
+// TclEventType: DESIGN_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// bs (cj):  Save Constraints : addNotify
+// Tcl Message: close [ open E:/ysc/DynamicDisplay.xdc w ] 
+// Tcl Message: add_files -fileset constrs_1 E:/ysc/DynamicDisplay.xdc 
+// Tcl Message: set_property target_constrs_file E:/ysc/DynamicDisplay.xdc [current_fileset -constrset] 
+dismissDialog("Save Constraints"); // a (cj)
+// TclEventType: DESIGN_SAVE
+// Tcl Message: save_constraints -force 
+// 'h' command handler elapsed time: 20 seconds
+dismissDialog("Save Constraints"); // bs (cj)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1]", 16); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, DynamicDisplay.xdc]", 17, false); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, DynamicDisplay.xdc]", 17, false, false, false, false, false, true); // B (D, cj) - Double Click
+// Elapsed time: 87 seconds
+selectCodeEditor("DynamicDisplay.xdc", 332, 120); // cd (w, cj)
+selectCodeEditor("DynamicDisplay.xdc", 377, 406); // cd (w, cj)
+selectCodeEditor("DynamicDisplay.xdc", 37, 112); // cd (w, cj)
+typeControlKey((HResource) null, "DynamicDisplay.xdc", 'v'); // cd (w, cj)
+selectCodeEditor("DynamicDisplay.xdc", 413, 159); // cd (w, cj)
+// Elapsed time: 26 seconds
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, cj)
+// TclEventType: DESIGN_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 47 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Run Implementation]", 29, false); // u (O, cj)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// x (cj): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (x)
+// bs (cj):  Resetting Runs : addNotify
+dismissDialog("Synthesis is Out-of-date"); // x (cj)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (cj): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bs (cj):  Starting Design Runs : addNotify
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+dismissDialog("Launch Runs"); // f (cj)
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -jobs 2 
+// Tcl Message: [Mon Aug 31 10:00:42 2020] Launched synth_1... Run output will be captured here: E:/ysc/vivadoproject1/DynamicDisplay.runs/synth_1/runme.log [Mon Aug 31 10:00:42 2020] Launched impl_1... Run output will be captured here: E:/ysc/vivadoproject1/DynamicDisplay.runs/impl_1/runme.log 
+dismissDialog("Starting Design Runs"); // bs (cj)
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_FAILED
+// ah (cj): Implementation Failed: addNotify
+// Elapsed time: 97 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Implementation Failed"); // ah (cj)
+selectCheckBox(PAResourceItoN.MsgView_ERROR_MESSAGES, (String) null, true); // g (aQ, cj): TRUE
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Opt Design, DRC, Netlist, Net, [DRC MDRV-1] Multiple Driver Nets: Net bg_layer_u/Q[0] has multiple drivers: ROMInst1_i_10/O, and bg_layer_u/addr_reg[0]/Q.. ]", 11); // ah (O, cj)
+// Elapsed time: 17 seconds
+selectCheckBox(PAResourceItoN.MsgView_CRITICAL_WARNINGS, (String) null, true); // g (aQ, cj): TRUE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "DynamicDisplay.v", 4); // k (j, cj)
+// Elapsed time: 16 seconds
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Opt Design, DRC, Netlist, Net, [DRC MDRV-1] Multiple Driver Nets: Net bg_layer_u/Q[0] has multiple drivers: ROMInst1_i_10/O, and bg_layer_u/addr_reg[0]/Q.. ]", 11); // ah (O, cj)
+// Elapsed time: 28 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, DynamicDisplay (DynamicDisplay.v), bg_layer_u : bg_layer (bg_layer.v), ROMInst1 : PictureROM1 (PictureROM1.xci)]", 8, false); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, DynamicDisplay (DynamicDisplay.v), bg_layer_u : bg_layer (bg_layer.v), ROMInst1 : PictureROM1 (PictureROM1.xci)]", 8, false); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, DynamicDisplay (DynamicDisplay.v), bg_layer_u : bg_layer (bg_layer.v), ROMInst1 : PictureROM1 (PictureROM1.xci)]", 8, false, false, false, false, false, true); // B (D, cj) - Double Click
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+// TclEventType: LOAD_FEATURE
+// N (cj):  Re-customize IP : addNotify
+// TclEventType: LOAD_FEATURE
+// r (cj): Re-customize IP: addNotify
+dismissDialog("Re-customize IP"); // N (cj)
+dismissDialog("Re-customize IP"); // r (cj)
+// Elapsed time: 90 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "bg_layer.v", 6); // k (j, cj)
+// Elapsed time: 90 seconds
+selectCodeEditor("bg_layer.v", 644, 306); // cd (w, cj)
+selectCodeEditor("bg_layer.v", 170, 325); // cd (w, cj)
+selectCodeEditor("bg_layer.v", 183, 341); // cd (w, cj)
+selectCodeEditor("bg_layer.v", 187, 367); // cd (w, cj)
+selectCodeEditor("bg_layer.v", 193, 388); // cd (w, cj)
+selectCodeEditor("bg_layer.v", 199, 405); // cd (w, cj)
+// Elapsed time: 13 seconds
+selectCodeEditor("bg_layer.v", 213, 326); // cd (w, cj)
+selectCodeEditor("bg_layer.v", 235, 351); // cd (w, cj)
+selectCodeEditor("bg_layer.v", 246, 366); // cd (w, cj)
+selectCodeEditor("bg_layer.v", 258, 387); // cd (w, cj)
+// Elapsed time: 32 seconds
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-3352] multi-driven net n_0_305 with 1st driver pin 'i_305/O' [E:/ysc/DynamicDisplay.v:1]. ]", 2); // ah (O, cj)
+// Elapsed time: 144 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, DynamicDisplay (DynamicDisplay.v), action_u : action (action.v)]", 6, true); // B (D, cj) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, DynamicDisplay (DynamicDisplay.v), action_u : action (action.v)]", 6, true); // B (D, cj) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, DynamicDisplay (DynamicDisplay.v), action_u : action (action.v)]", 6, true, false, false, false, false, true); // B (D, cj) - Double Click - Node
+// Elapsed time: 19 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "bg_layer.v", 6); // k (j, cj)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "DynamicDisplay.v", 4); // k (j, cj)
+collapseTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-3352] multi-driven net n_0_305 with 1st driver pin 'i_305/O' [E:/ysc/DynamicDisplay.v:1]. ]", 2); // ah (O, cj)
+// Elapsed time: 29 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "bg_layer.v", 6); // k (j, cj)
+// Elapsed time: 151 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Schematic", 5); // k (j, cj)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "bg_layer.v", 6); // k (j, cj)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Schematic", 5); // k (j, cj)
+// Elapsed time: 121 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "bg_layer.v", 6); // k (j, cj)
+// Elapsed time: 43 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Schematic", 5); // k (j, cj)
+// Elapsed time: 284 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Opt Design, DRC, Netlist, Net, [DRC MDRV-1] Multiple Driver Nets: Net bg_layer_u/Q[0] has multiple drivers: ROMInst1_i_10/O, and bg_layer_u/addr_reg[0]/Q.. , [DRC MDRV-1] Multiple Driver Nets: Net bg_layer_u/Q[5] has multiple drivers: bg_layer_u/addr_reg[11]/Q, and sync_inst/PosX_reg_reg[3]/Q.. ]", 16, false); // ah (O, cj)
+// Elapsed time: 42 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, DynamicDisplay (DynamicDisplay.v), bg_layer_u : bg_layer (bg_layer.v)]", 8, true); // B (D, cj) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, DynamicDisplay (DynamicDisplay.v), bg_layer_u : bg_layer (bg_layer.v)]", 8, true, false, false, false, false, true); // B (D, cj) - Double Click - Node
+selectCodeEditor("bg_layer.v", 458, 285); // cd (w, cj)
+// Elapsed time: 21 seconds
+selectCodeEditor("bg_layer.v", 64, 351); // cd (w, cj)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,773 MB. GUI used memory: 129 MB. Current time: 8/31/20 10:22:52 AM CST
+// Elapsed time: 114 seconds
+selectCodeEditor("bg_layer.v", 43, 103); // cd (w, cj)
+selectCodeEditor("bg_layer.v", 45, 98); // cd (w, cj)
+selectCodeEditor("bg_layer.v", 46, 106); // cd (w, cj)
+// Elapsed time: 42 seconds
+selectCodeEditor("bg_layer.v", 21, 125); // cd (w, cj)
+selectCodeEditor("bg_layer.v", 521, 308); // cd (w, cj)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, cj)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("bg_layer.v", 473, 135); // cd (w, cj)
+// Elapsed time: 42 seconds
+selectButton(PAResourceOtoP.ProjectTab_RELOAD, "Reload"); // h (cZ, cj)
+// bs (cj):  Reloading : addNotify
+// Tcl Message: refresh_design 
+// TclEventType: DESIGN_REFRESH
+// HMemoryUtils.trashcanNow. Engine heap size: 1,773 MB. GUI used memory: 102 MB. Current time: 8/31/20 10:25:53 AM CST
+// Engine heap size: 1,773 MB. GUI used memory: 103 MB. Current time: 8/31/20 10:25:54 AM CST
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: POWER_CNS_STALE
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_REFRESH
+// HMemoryUtils.trashcanNow. Engine heap size: 1,773 MB. GUI used memory: 95 MB. Current time: 8/31/20 10:25:58 AM CST
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// Package: addNotify
+// Device: addNotify
+// DeviceView Instantiated
+// Schematic: addNotify
+// Tcl Message: INFO: [Netlist 29-17] Analyzing 6062 Unisim elements for replacement INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds INFO: [Project 1-479] Netlist was created with Vivado 2017.4 INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message: Parsing XDC File [e:/ysc/vivadoproject1/DynamicDisplay.srcs/sources_1/ip/DCM_PLL/DCM_PLL_board.xdc] for cell 'DCM_INST/inst' Finished Parsing XDC File [e:/ysc/vivadoproject1/DynamicDisplay.srcs/sources_1/ip/DCM_PLL/DCM_PLL_board.xdc] for cell 'DCM_INST/inst' Parsing XDC File [e:/ysc/vivadoproject1/DynamicDisplay.srcs/sources_1/ip/DCM_PLL/DCM_PLL.xdc] for cell 'DCM_INST/inst' 
+// Tcl Message: INFO: [Timing 38-35] Done setting XDC timing constraints. [e:/ysc/vivadoproject1/DynamicDisplay.srcs/sources_1/ip/DCM_PLL/DCM_PLL.xdc:57] INFO: [Timing 38-2] Deriving generated clocks [e:/ysc/vivadoproject1/DynamicDisplay.srcs/sources_1/ip/DCM_PLL/DCM_PLL.xdc:57] 
+// Tcl Message: Finished Parsing XDC File [e:/ysc/vivadoproject1/DynamicDisplay.srcs/sources_1/ip/DCM_PLL/DCM_PLL.xdc] for cell 'DCM_INST/inst' Parsing XDC File [E:/ysc/DynamicDisplay.xdc] Finished Parsing XDC File [E:/ysc/DynamicDisplay.xdc] 
+// Tcl Message: INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s). 
+// Tcl Message: refresh_design: Time (s): cpu = 00:00:12 ; elapsed = 00:00:10 . Memory (MB): peak = 2098.867 ; gain = 12.020 
+dismissDialog("Reloading"); // bs (cj)
+// RouteApi: Init Delay Mediator Swing Worker Finished
+// Elapsed time: 35 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (O, cj)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bs (cj):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (cj): Launch Runs: addNotify
+dismissDialog("Launch Runs"); // f (cj)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (O, cj)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bs (cj):  Resetting Runs : addNotify
+// f (cj): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bs (cj):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (cj)
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 2 
+// Tcl Message: [Mon Aug 31 10:26:41 2020] Launched synth_1... Run output will be captured here: E:/ysc/vivadoproject1/DynamicDisplay.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bs (cj)
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_COMPLETED
+// ah (cj): Synthesis Completed: addNotify
+// Elapsed time: 52 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_GOTO_NETLIST_DESIGN, "Open Synthesized Design"); // a (N, ah)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_GOTO_NETLIST_DESIGN
+// bs (cj):  Reloading design : addNotify
+// TclEventType: DESIGN_CLOSE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,773 MB. GUI used memory: 111 MB. Current time: 8/31/20 10:27:37 AM CST
+// Engine heap size: 1,773 MB. GUI used memory: 112 MB. Current time: 8/31/20 10:27:37 AM CST
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: close_design 
+// TclEventType: DESIGN_CLOSE
+// Tcl Message: open_run synth_1 -name synth_1 
+// Tcl Message: Design is defaulting to impl run constrset: constrs_1 Design is defaulting to synth run part: xc7a200tfbg484-1 
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: POWER_CNS_STALE
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 1,773 MB. GUI used memory: 98 MB. Current time: 8/31/20 10:27:43 AM CST
+// TclEventType: DESIGN_NEW
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// Package: addNotify
+// Device: addNotify
+// DeviceView Instantiated
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: Parsing XDC File [e:/ysc/vivadoproject1/DynamicDisplay.srcs/sources_1/ip/DCM_PLL/DCM_PLL_board.xdc] for cell 'DCM_INST/inst' Finished Parsing XDC File [e:/ysc/vivadoproject1/DynamicDisplay.srcs/sources_1/ip/DCM_PLL/DCM_PLL_board.xdc] for cell 'DCM_INST/inst' Parsing XDC File [e:/ysc/vivadoproject1/DynamicDisplay.srcs/sources_1/ip/DCM_PLL/DCM_PLL.xdc] for cell 'DCM_INST/inst' 
+// Tcl Message: INFO: [Timing 38-35] Done setting XDC timing constraints. [e:/ysc/vivadoproject1/DynamicDisplay.srcs/sources_1/ip/DCM_PLL/DCM_PLL.xdc:57] INFO: [Timing 38-2] Deriving generated clocks [e:/ysc/vivadoproject1/DynamicDisplay.srcs/sources_1/ip/DCM_PLL/DCM_PLL.xdc:57] 
+// Tcl Message: Finished Parsing XDC File [e:/ysc/vivadoproject1/DynamicDisplay.srcs/sources_1/ip/DCM_PLL/DCM_PLL.xdc] for cell 'DCM_INST/inst' Parsing XDC File [E:/ysc/DynamicDisplay.xdc] Finished Parsing XDC File [E:/ysc/DynamicDisplay.xdc] 
+// Tcl Message: INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s). INFO: [Project 1-111] Unisim Transformation Summary:   A total of 4 instances were transformed.   OBUFDS => OBUFDS: 4 instances  
+// RouteApi: Init Delay Mediator Swing Worker Finished
+// Tcl Message: open_run: Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 2113.426 ; gain = 14.559 
+dismissDialog("Reloading design"); // bs (cj)
+selectComboBox(RDIResource.MainWinToolbarMgr_SELECT_OR_SAVE_WINDOW_LAYOUT, "I/O Planning", 1); // bc (f, cj)
+selectComboBox(RDIResource.MainWinToolbarMgr_SELECT_OR_SAVE_WINDOW_LAYOUT, "Debug", 3); // bc (f, cj)
+// Schematic: addNotify
+selectComboBox(RDIResource.MainWinToolbarMgr_SELECT_OR_SAVE_WINDOW_LAYOUT, "I/O Planning", 1); // bc (f, cj)
+// Package: addNotify
+// Device: addNotify
+// DeviceView Instantiated
+// Schematic: addNotify
+selectTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "TMDSp (6) ; OUT ; TMDSn ;  ; true ; 34 ; TMDS_33 ; 3.3 ;  ;  ;  ; NONE ; FP_3.3_50 ; ", 1, "TMDSp (6)", 0, true); // G (O, cj) - Node
+expandTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "TMDSp (6) ; OUT ; TMDSn ;  ; true ; 34 ; TMDS_33 ; 3.3 ;  ;  ;  ; NONE ; FP_3.3_50 ; ", 1); // G (O, cj)
+expandTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "Scalar ports (5) ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; ", 5); // G (O, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, DynamicDisplay.xdc]", 17, false); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1]", 16, true, false, false, false, false, true); // B (D, cj) - Double Click - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Run Implementation]", 29, false); // u (O, cj)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// f (cj): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bs (cj):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (cj)
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// Tcl Message: launch_runs impl_1 -jobs 2 
+// Tcl Message: Writing placer database... Writing XDEF routing. Writing XDEF routing logical nets. Writing XDEF routing special nets. 
+// Tcl Message: Write XDEF Complete: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.168 . Memory (MB): peak = 2113.426 ; gain = 0.000 
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Mon Aug 31 10:28:18 2020] Launched impl_1... Run output will be captured here: E:/ysc/vivadoproject1/DynamicDisplay.runs/impl_1/runme.log 
+// 'c' command handler elapsed time: 3 seconds
+dismissDialog("Starting Design Runs"); // bs (cj)
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// ah (cj): Implementation Completed: addNotify
+// Elapsed time: 333 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_RUN_BITGEN, "Generate Bitstream"); // a (N, ah)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// f (cj): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+dismissDialog("Launch Runs"); // f (cj)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 2 
+// Tcl Message: [Mon Aug 31 10:33:55 2020] Launched impl_1... Run output will be captured here: E:/ysc/vivadoproject1/DynamicDisplay.runs/impl_1/runme.log 
+// TclEventType: RUN_COMPLETED
+// ah (cj): Bitstream Generation Completed: addNotify
+// Elapsed time: 88 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (ah)
+dismissDialog("Bitstream Generation Completed"); // ah (cj)
+// Elapsed time: 28 seconds
+applyEscape(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, (String) null); // ax (O, cj)
+selectCodeEditor("DynamicDisplay.xdc", 284, 345); // cd (w, cj)
