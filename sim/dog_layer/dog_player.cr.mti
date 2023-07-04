@@ -1,0 +1,120 @@
+E:/ysc/vivadoproject1/DynamicDisplay.srcs/sources_1/ip/DCM_PLL/DCM_PLL_sim_netlist.v {1 {vlog -work work -vopt -stats=none E:/ysc/vivadoproject1/DynamicDisplay.srcs/sources_1/ip/DCM_PLL/DCM_PLL_sim_netlist.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module DCM_PLL
+-- Compiling module DCM_PLL_DCM_PLL_clk_wiz
+-- Compiling module glbl
+
+Top level modules:
+	DCM_PLL
+	glbl
+
+} {} {}} E:/ysc/vivadoproject1/DynamicDisplay.srcs/sources_1/ip/PictureROM2/PictureROM2_sim_netlist.v {1 {vlog -work work -vopt -stats=none E:/ysc/vivadoproject1/DynamicDisplay.srcs/sources_1/ip/PictureROM2/PictureROM2_sim_netlist.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module PictureROM2
+-- Compiling module PictureROM2_dist_mem_gen_v8_0_12
+-- Compiling module PictureROM2_dist_mem_gen_v8_0_12_synth
+-- Compiling module PictureROM2_rom
+-- Compiling module glbl
+
+Top level modules:
+	PictureROM2
+	glbl
+
+} {} {}} E:/yscc/lab25/src/DynamicDisplay/D3.v {1 {vlog -work work -vopt -stats=none E:/yscc/lab25/src/DynamicDisplay/D3.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module D3
+
+Top level modules:
+	D3
+
+} {} {}} E:/yscc/lab25/src/DynamicDisplay/counter.v {1 {vlog -work work -vopt -stats=none E:/yscc/lab25/src/DynamicDisplay/counter.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module counter
+
+Top level modules:
+	counter
+
+} {} {}} E:/yscc/lab25/src/DynamicDisplay/syncGenarator.v {1 {vlog -work work -vopt -stats=none E:/yscc/lab25/src/DynamicDisplay/syncGenarator.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module syncGenarator
+
+Top level modules:
+	syncGenarator
+
+} {} {}} E:/ysc/vivadoproject1/DynamicDisplay.srcs/sources_1/ip/PictureROM3/PictureROM3_sim_netlist.v {1 {vlog -work work -vopt -stats=none E:/ysc/vivadoproject1/DynamicDisplay.srcs/sources_1/ip/PictureROM3/PictureROM3_sim_netlist.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module PictureROM3
+-- Compiling module PictureROM3_dist_mem_gen_v8_0_12
+-- Compiling module PictureROM3_dist_mem_gen_v8_0_12_synth
+-- Compiling module PictureROM3_rom
+-- Compiling module glbl
+
+Top level modules:
+	PictureROM3
+	glbl
+
+} {} {}} E:/yscc/lab25/src/DynamicDisplay/choose.v {1 {vlog -work work -vopt -stats=none E:/yscc/lab25/src/DynamicDisplay/choose.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module choose
+
+Top level modules:
+	choose
+
+} {} {}} E:/ysc/vivadoproject1/DynamicDisplay.srcs/sources_1/ip/PictureROM4/PictureROM4_sim_netlist.v {1 {vlog -work work -vopt -stats=none E:/ysc/vivadoproject1/DynamicDisplay.srcs/sources_1/ip/PictureROM4/PictureROM4_sim_netlist.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module PictureROM4
+-- Compiling module PictureROM4_dist_mem_gen_v8_0_12
+-- Compiling module PictureROM4_dist_mem_gen_v8_0_12_synth
+-- Compiling module PictureROM4_rom
+-- Compiling module glbl
+
+Top level modules:
+	PictureROM4
+	glbl
+
+} {} {}} E:/yscc/lab25/src/DynamicDisplay/D3_tb.v {1 {vlog -work work -vopt -stats=none E:/yscc/lab25/src/DynamicDisplay/D3_tb.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module D3_tb
+
+Top level modules:
+	D3_tb
+
+} {} {}} E:/ysc/vivadoproject1/DynamicDisplay.srcs/sources_1/ip/PictureROM5/PictureROM5_sim_netlist.v {1 {vlog -work work -vopt -stats=none E:/ysc/vivadoproject1/DynamicDisplay.srcs/sources_1/ip/PictureROM5/PictureROM5_sim_netlist.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module PictureROM5
+-- Compiling module PictureROM5_dist_mem_gen_v8_0_12
+-- Compiling module PictureROM5_dist_mem_gen_v8_0_12_synth
+-- Compiling module PictureROM5_rom
+-- Compiling module glbl
+
+Top level modules:
+	PictureROM5
+	glbl
+
+} {} {}} E:/yscc/lab25/src/DynamicDisplay/action.v {1 {vlog -work work -vopt -stats=none E:/yscc/lab25/src/DynamicDisplay/action.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module action
+
+Top level modules:
+	action
+
+} {} {}} E:/ysc/vivadoproject1/DynamicDisplay.srcs/sources_1/ip/PictureROM6/PictureROM6_sim_netlist.v {1 {vlog -work work -vopt -stats=none E:/ysc/vivadoproject1/DynamicDisplay.srcs/sources_1/ip/PictureROM6/PictureROM6_sim_netlist.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module PictureROM6
+-- Compiling module PictureROM6_dist_mem_gen_v8_0_12
+-- Compiling module PictureROM6_dist_mem_gen_v8_0_12_synth
+-- Compiling module PictureROM6_rom
+-- Compiling module glbl
+
+Top level modules:
+	PictureROM6
+	glbl
+
+} {} {}} E:/yscc/lab25/src/DynamicDisplay/dog_layer.v {1 {vlog -work work -vopt -stats=none E:/yscc/lab25/src/DynamicDisplay/dog_layer.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module dog_layer
+
+Top level modules:
+	dog_layer
+
+} {} {}}
